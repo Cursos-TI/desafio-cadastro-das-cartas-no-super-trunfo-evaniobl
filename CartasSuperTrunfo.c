@@ -8,7 +8,7 @@
 //Teste larissa
 
 int main() {
-    //Durante o desenvolvimento do código eu optei por inicializar as variáveis com informações obtidas através de pesquisas no google
+    //Durante o desenvolvimento do código eu optei por inicializar as variáveis com informações obtidas através de pesquisas no google com exceção do PIB 
     //Mesmo assim desenvolvi a atividade para que o usuário consiga cadastrar e ler com clareza as duas cartas
     //Variaveis da primeira carta, "01"
     char sigla01[10] = "SP";
@@ -25,7 +25,7 @@ int main() {
     char cidade02[50] = "Itaperuna";
     int popula02 = 101041;
     float km02 = 1106.694;
-    float pib02 = 3287189082.02;
+    float pib02 = 3276363.02;
     int turist02 = 10;
 
     //Cadastro das cartas com "scanf"
