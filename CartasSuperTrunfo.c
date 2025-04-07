@@ -11,21 +11,21 @@ int main() {
     //Durante o desenvolvimento do código eu optei por inicializar as variáveis com informações obtidas através de pesquisas no google
     //Mesmo assim desenvolvi a atividade para que o usuário consiga cadastrar e ler com clareza as duas cartas
     //Variaveis da primeira carta, "01"
-    char sigla01[5] = "SP";
+    char sigla01[10] = "SP";
     char code01[10] = "SP01";
     char cidade01[50] = "Campos_do_Jordão";
     int popula01 = 47000;
     float km01 = 290.52;
-    double pib01 =  1276363.74;
+    float pib01 =  1276363.74;
     int turist01 = 32;
 
     //Variáveis da segunda carta, "02"
-    char sigla02[5] = "RJ";
+    char sigla02[10] = "RJ";
     char code02[10] = "RJ01";
     char cidade02[50] = "Itaperuna";
     int popula02 = 101041;
     float km02 = 1106.694;
-    double pib02 = 3287189082.02;
+    float pib02 = 3287189082.02;
     int turist02 = 10;
 
     //Cadastro das cartas com "scanf"
