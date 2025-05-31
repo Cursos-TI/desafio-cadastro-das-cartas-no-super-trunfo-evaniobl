@@ -14,19 +14,23 @@ int main() {
     char sigla01[10] = "SP";
     char code01[10] = "SP01";
     char cidade01[50] = "Campos_do_Jordão";
-    int popula01 = 47000;
+    int popula01 = 46974;
     float km01 = 290.52;
-    float pib01 =  1276363.74;
+    float pib01 =  1449808280.00;
     int turist01 = 32;
+    float densidadepopu01 = (float) popula01 / km01;
+    float pibpercap01 = (float) pib01 / popula01;
 
     //Variáveis da segunda carta, "02"
-    char sigla02[10] = "RJ";
+    char sigla02 [10] = "RJ";
     char code02[10] = "RJ01";
     char cidade02[50] = "Itaperuna";
     int popula02 = 101041;
     float km02 = 1106.694;
-    float pib02 = 3276363.02;
+    float pib02 =  3287189082.02;
     int turist02 = 10;
+    float densidadepopu02 = (float) popula02 / km02;
+    float pibpercap02 = (float) pib02 / popula02;
 
     //Cadastro das cartas com "scanf"
     //Primeira Carta
@@ -91,8 +95,10 @@ int main() {
     printf ("Nome da cidade: %s\n", cidade01);
     printf ("População: %d\n", popula01);
     printf ("Área: %.02fKm²\n", km01);
-    printf ("PIB: R$:%.02f\n", pib01);
+    printf ("PIB: %.02f Bilhões de Reais\n", pib01);
     printf ("Númeors de pontos turísticos: %d\n", turist01);
+    printf ("Densidade Populacional: %.02fhab/Km²\n", densidadepopu01);
+    printf ("PIB per Capita: %.02fReais\n", pibpercap01);
     printf ("\n");
 
     //"imprimindo" as informações na tela sobre a segunda carta: "Rio de Janeiro, Itaperuna"
@@ -102,8 +108,10 @@ int main() {
     printf ("Nome da cidade: %s\n", cidade02);
     printf ("População: %d\n", popula02);
     printf ("Área: %.02fKm²\n", km02);
-    printf ("PIB: R$:%.02f\n", pib02);
+    printf ("PIB: %.02f Bilhões de Reais\n", pib02);
     printf ("Númeors de pontos turísticos: %d\n", turist02);
+    printf ("Densidade Populacional: %.02fhab/Km²\n", densidadepopu02);
+    printf ("PIB per Capita: %.02fReais\n", pibpercap02);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
